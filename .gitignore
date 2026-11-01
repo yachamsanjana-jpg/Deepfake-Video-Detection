@@ -1,0 +1,20 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+instance/flask/Scripts/
+
+# Large trained model
+df_model.pt
+
+# Temporary files
+*.log
+.DS_Store
+
+# IDE files
+.vscode/

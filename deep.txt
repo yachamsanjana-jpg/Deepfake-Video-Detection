@@ -1,0 +1,16 @@
+python -m pip install --upgrade --force-reinstall setuptools==69.5.1
+
+python -c "import pkg_resources; print('PKG_RESOURCES OK')"
+
+python -c "import face_recognition_models; print('MODELS OK')"
+
+python -c "import face_recognition; print('FACE RECOGNITION OK')"
+
+python FINAL_CHECK.py
+
+
+
+pip install face-recognition==1.1.0
+
+python -m pip install git+https://github.com/ageitgey/face_recognition_models
+
